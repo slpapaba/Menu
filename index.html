@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuBar</title>
+</head>
+<body>
+    <div class="navBar">
+        <nav>
+            <header>
+                <ul>
+                    <li> <a id="One" href="index.html" target="_blank">Home</a></li>
+                    <li> <a id="Two" href="https://www.nike.com/" target="_blank">Contact</a›</li>
+                    <li> <a id="Three" href="https://www.underarmour.com/en-us/" target="_blank">About</a›</li>
+                </ul>
+            </header>
+        </nav>
+</div>
+
+<script>
+let colorForBackground = document.querySelector ("body") ;
+colorForBackground.style.backgroundColor="Green";
+
+let navBackground = document.querySelector ("nav");
+navBackground.style.backgroundColor = "Greenyellow" ;
+navBackground.style.float = "left";
+navBackground.style.fontFamily = "Helvetica" ;
+
+let liststyle = document.querySelector ("header ul");
+liststyle.style.liststyle ="none";
+liststyle.style.margin= "0";
+liststyle.style.padding = "0";
+liststyle.style.overflow = "hidden" ;
+
+let secondList = document. querySelector ("#One") ;
+secondlist.style.display= "inline-block";
+secondList.style.textAlign = "center";
+secondlist.style.padding = "50px";
+secondList.style.textDecoration = "none" ;
+secondList.style.color = "purple";
+
+let secondList1 = document.querySelector("#Two");
+secondList1.style.display = "inline-block";
+secondList1.style.textAlign = "center";
+secondList1.style.padding = "50px";
+secondList1.style.textDecoration = "none" ;
+secondList1.style.color = "purple";
+
+let secondList2 = document.querySelector ("#Three");
+secondList2.style.display = "inline-block";
+secondList2.style.textAlign = "center";
+secondList2.style.padding = "50px";
+secondList2.style.textDecoration = "none";
+secondList2.style.color = "purple";
+
+let thirdlist = document.querySelector ("li:last-child");
+thirdlist.style.borderRight= "none";
+
+</script>
+</body>
+</html>
